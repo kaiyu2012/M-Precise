@@ -14,6 +14,8 @@
  - Libo Sun
 
 # Team Goal
+Exploring AI tools for cancer therapeutics/ Drug Discovery
+
   
   
 
