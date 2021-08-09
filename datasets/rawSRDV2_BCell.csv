@@ -12104,26 +12104,46 @@ B2M6,0.00251170919362909,0.354104264505957,P40,remission,70.0,M,2018-06-04 00:00
 B2M6,0.00251170919362909,0.354104264505957,P40,remission,70.0,M,2018-06-04 00:00:00,M2,"ASXL1,TET2,DNMT3A,TP53,WT1","IA, IA, IA, IA, IA",II,1520,,,DNMT3A,2.0
 B2M6,0.00251170919362909,0.354104264505957,P40,remission,70.0,M,2018-06-04 00:00:00,M2,"ASXL1,TET2,DNMT3A,TP53,WT1","IA, IA, IA, IA, IA",II,1520,,,TP53,3.0
 B2M6,0.00251170919362909,0.354104264505957,P40,remission,70.0,M,2018-06-04 00:00:00,M2,"ASXL1,TET2,DNMT3A,TP53,WT1","IA, IA, IA, IA, IA",II,1520,,,WT1,4.0
-IGLC3,2.96164842565669e-31,4.56875035694359,P-extra2,remission,,,,,,,,,,,,
-IGLC2,1.05414836999845e-22,4.44256283264774,P-extra2,remission,,,,,,,,,,,,
-IGHG4,3.98502736793277e-28,4.41336827446165,P-extra2,remission,,,,,,,,,,,,
-IGHG1,4.59334303779649e-31,4.17583313143128,P-extra2,remission,,,,,,,,,,,,
-IGLL5,1.47152893528392e-17,4.07022023999371,P-extra2,remission,,,,,,,,,,,,
-IGKC,5.78497909037353e-13,3.63735669494941,P-extra2,remission,,,,,,,,,,,,
-IGHA1,2.96689753783687e-18,3.48850856232336,P-extra2,remission,,,,,,,,,,,,
-IGHG2,3.62375513857645e-16,3.47503825359187,P-extra2,remission,,,,,,,,,,,,
-IGHG3,1.07938183693695e-54,3.24934429769438,P-extra2,remission,,,,,,,,,,,,
-MZB1,2.88989089159444e-111,2.79597961666769,P-extra2,remission,,,,,,,,,,,,
-JCHAIN,5.91936314728763e-46,2.78475401656331,P-extra2,remission,,,,,,,,,,,,
-DERL3,2.79857290017855e-76,2.0903727448186,P-extra2,remission,,,,,,,,,,,,
-SEC11C,9.20378395719635e-53,1.97892793754014,P-extra2,remission,,,,,,,,,,,,
-SSR4,8.80255638158087e-44,1.87767035931298,P-extra2,remission,,,,,,,,,,,,
-PRDX4,1.21436822917794e-41,1.81281688960485,P-extra2,remission,,,,,,,,,,,,
-SUB1,2.43080336876943e-13,1.37702706166383,P-extra2,remission,,,,,,,,,,,,
-KRTCAP2,6.24641471349292e-09,1.00854019238598,P-extra2,remission,,,,,,,,,,,,
-SPCS1,0.00423803421565023,0.67910772332732,P-extra2,remission,,,,,,,,,,,,
-TMEM258,0.00110476094370782,0.598204392085307,P-extra2,remission,,,,,,,,,,,,
-HLA-C,0.00319713621335065,0.421766505843545,P-extra2,remission,,,,,,,,,,,,
+IGLC3,2.96164842565669e-31,4.56875035694359,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGLC3,2.96164842565669e-31,4.56875035694359,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGLC2,1.05414836999845e-22,4.44256283264774,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGLC2,1.05414836999845e-22,4.44256283264774,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGHG4,3.98502736793277e-28,4.41336827446165,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGHG4,3.98502736793277e-28,4.41336827446165,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGHG1,4.59334303779649e-31,4.17583313143128,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGHG1,4.59334303779649e-31,4.17583313143128,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGLL5,1.47152893528392e-17,4.07022023999371,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGLL5,1.47152893528392e-17,4.07022023999371,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGKC,5.78497909037353e-13,3.63735669494941,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGKC,5.78497909037353e-13,3.63735669494941,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGHA1,2.96689753783687e-18,3.48850856232336,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGHA1,2.96689753783687e-18,3.48850856232336,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGHG2,3.62375513857645e-16,3.47503825359187,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGHG2,3.62375513857645e-16,3.47503825359187,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGHG3,1.07938183693695e-54,3.24934429769438,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGHG3,1.07938183693695e-54,3.24934429769438,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+MZB1,2.88989089159444e-111,2.79597961666769,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+MZB1,2.88989089159444e-111,2.79597961666769,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+JCHAIN,5.91936314728763e-46,2.78475401656331,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+JCHAIN,5.91936314728763e-46,2.78475401656331,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+DERL3,2.79857290017855e-76,2.0903727448186,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+DERL3,2.79857290017855e-76,2.0903727448186,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SEC11C,9.20378395719635e-53,1.97892793754014,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SEC11C,9.20378395719635e-53,1.97892793754014,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SSR4,8.80255638158087e-44,1.87767035931298,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SSR4,8.80255638158087e-44,1.87767035931298,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+PRDX4,1.21436822917794e-41,1.81281688960485,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+PRDX4,1.21436822917794e-41,1.81281688960485,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SUB1,2.43080336876943e-13,1.37702706166383,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SUB1,2.43080336876943e-13,1.37702706166383,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+KRTCAP2,6.24641471349292e-09,1.00854019238598,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+KRTCAP2,6.24641471349292e-09,1.00854019238598,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SPCS1,0.00423803421565023,0.67910772332732,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SPCS1,0.00423803421565023,0.67910772332732,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+TMEM258,0.00110476094370782,0.598204392085307,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+TMEM258,0.00110476094370782,0.598204392085307,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+HLA-C,0.00319713621335065,0.421766505843545,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+HLA-C,0.00319713621335065,0.421766505843545,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
 IGLC3,8.02829059663937e-48,2.6951380739557,P04-Post,relapse,,,,,,,,,,,,
 JCHAIN,7.49322466172301e-49,2.45843496009289,P04-Post,relapse,,,,,,,,,,,,
 IGHG1,2.95034410880572e-50,2.38701468604603,P04-Post,relapse,,,,,,,,,,,,
@@ -12143,112 +12163,221 @@ PPIB1,1.8759873545244e-08,0.568298319980075,P04-Post,relapse,,,,,,,,,,,,
 SPCS1,1.2055522547281e-09,0.514957009722357,P04-Post,relapse,,,,,,,,,,,,
 SEC61B1,0.000476309472958679,0.387352073939573,P04-Post,relapse,,,,,,,,,,,,
 ATP5G31,0.00203983792258707,0.278626657142996,P04-Post,relapse,,,,,,,,,,,,
-ATF4,4.25882187740117e-09,0.646534446177008,P-extra2,remission,,,,,,,,,,,,
-ISCU,0.000190959773749756,0.332599820256862,P-extra2,remission,,,,,,,,,,,,
-P4HB,4.98425683970521e-05,0.326001261974941,P-extra2,remission,,,,,,,,,,,,
-ATP5G1,0.00934570990114103,0.265770771792616,P-extra2,remission,,,,,,,,,,,,
-IGLL5,1.55339884058289e-08,2.694014671579,P-extra2,remission,,,,,,,,,,,,
-IGKC,2.52374915183702e-21,1.97784757070846,P-extra2,remission,,,,,,,,,,,,
-IGKV4-1,6.47536361223371e-06,1.9071834978088,P-extra2,remission,,,,,,,,,,,,
-CRELD2,5.79330147742719e-16,0.884608737332851,P-extra2,remission,,,,,,,,,,,,
-LMAN2,1.30124926961874e-07,0.755737696898247,P-extra2,remission,,,,,,,,,,,,
-SFT2D1,1.11793653046049e-09,0.748067978122956,P-extra2,remission,,,,,,,,,,,,
-HAX1,1.53062707669375e-11,0.728081436974607,P-extra2,remission,,,,,,,,,,,,
-MESDC2,1.04830646036856e-13,0.712364991828446,P-extra2,remission,,,,,,,,,,,,
-SEC13,1.31855696608063e-08,0.697070332853284,P-extra2,remission,,,,,,,,,,,,
-ALG5,4.43053637131512e-10,0.626922472082076,P-extra2,remission,,,,,,,,,,,,
-REEP5,1.48468267838346e-07,0.613980467175309,P-extra2,remission,,,,,,,,,,,,
-RPL22L1,2.12504371632402e-05,0.477606941142198,P-extra2,remission,,,,,,,,,,,,
-ATRAID,3.34758184760979e-05,0.473719538228595,P-extra2,remission,,,,,,,,,,,,
-PDIA3,0.000141731290841251,0.43668801362074,P-extra2,remission,,,,,,,,,,,,
-IDH2,0.000732103694581792,0.416079355242605,P-extra2,remission,,,,,,,,,,,,
-OST4,0.000131202755628217,0.414347667585745,P-extra2,remission,,,,,,,,,,,,
-CYBA,0.00349312466425174,0.392089120810275,P-extra2,remission,,,,,,,,,,,,
-NUCB2,0.000119799430582782,0.391494598623058,P-extra2,remission,,,,,,,,,,,,
-SNU13,0.000129504242952898,0.380752998995368,P-extra2,remission,,,,,,,,,,,,
-CUTA,7.01262676644696e-05,0.378735140887055,P-extra2,remission,,,,,,,,,,,,
-KRT10,0.000949327294171601,0.370348293761311,P-extra2,remission,,,,,,,,,,,,
-ANAPC11,4.66337817869304e-05,0.351742669300419,P-extra2,remission,,,,,,,,,,,,
-MIF,0.000809796837067859,0.350712518166126,P-extra2,remission,,,,,,,,,,,,
-PEBP1,0.0079731918995518,0.350004167172527,P-extra2,remission,,,,,,,,,,,,
-DAD1,0.0037282301511322,0.334780052783545,P-extra2,remission,,,,,,,,,,,,
-SSR2,0.00599136770128531,0.29944397703094,P-extra2,remission,,,,,,,,,,,,
-AC016739.2,0.00292429042681233,0.288108972044974,P-extra2,remission,,,,,,,,,,,,
-IGLV3-21,3.84866287156299e-05,2.81439082287612,P-extra2,remission,,,,,,,,,,,,
-IGHA1,6.30592941759906e-23,2.40776294889347,P-extra2,remission,,,,,,,,,,,,
-IGHG3,0.00343072686098862,1.79707506340817,P-extra2,remission,,,,,,,,,,,,
-ERLEC1,2.97564968166004e-12,0.92157556696574,P-extra2,remission,,,,,,,,,,,,
-TXNDC15,3.28066707637671e-13,0.765130982813924,P-extra2,remission,,,,,,,,,,,,
-SLAMF7,1.54266551150641e-09,0.754607981745463,P-extra2,remission,,,,,,,,,,,,
-MTDH,3.87076284320197e-09,0.742702124553128,P-extra2,remission,,,,,,,,,,,,
-ARF4,8.43224732756116e-06,0.710394277171009,P-extra2,remission,,,,,,,,,,,,
-ISG20,4.3972928958761e-09,0.662147095622727,P-extra2,remission,,,,,,,,,,,,
-FOS,4.65641721524052e-05,0.501699665362384,P-extra2,remission,,,,,,,,,,,,
-RABAC1,0.000480743332638739,0.483278213230202,P-extra2,remission,,,,,,,,,,,,
-ERGIC3,1.58638812147662e-05,0.479140146925427,P-extra2,remission,,,,,,,,,,,,
-COPE,0.00798672925589834,0.446308498304668,P-extra2,remission,,,,,,,,,,,,
-PDIA6,0.00429497132990931,0.442824612556369,P-extra2,remission,,,,,,,,,,,,
-TRAM1,0.000400189374271117,0.437522287596223,P-extra2,remission,,,,,,,,,,,,
-NDUFA1,0.00290799969382661,0.420324252841739,P-extra2,remission,,,,,,,,,,,,
-TMBIM6,0.00145883896288936,0.386300241334412,P-extra2,remission,,,,,,,,,,,,
-TMEM59,0.00210565324460844,0.381209117441466,P-extra2,remission,,,,,,,,,,,,
-JTB,0.00276221486092841,0.360083630775515,P-extra2,remission,,,,,,,,,,,,
-CDK2AP2,0.00441641174715751,0.342769880081125,P-extra2,remission,,,,,,,,,,,,
-SEC62,0.0021559625634868,0.31555434166339,P-extra2,remission,,,,,,,,,,,,
-NDUFB4,0.00715159738468299,0.264515109458677,P-extra2,remission,,,,,,,,,,,,
-IGLV2-14,1.4389756651859e-08,3.53961577047802,P-extra2,remission,,,,,,,,,,,,
-IGLC3,1.78499380253323e-18,2.87075350556125,P-extra2,remission,,,,,,,,,,,,
-IGLV2-23,2.57560857975628e-22,2.73955523075753,P-extra2,remission,,,,,,,,,,,,
-IGLC2,1.31762336655154e-25,2.64692558410404,P-extra2,remission,,,,,,,,,,,,
-IGHG1,9.74757410539037e-26,2.46945376591871,P-extra2,remission,,,,,,,,,,,,
-IGHG2,5.3564232788683e-05,2.43249104248731,P-extra2,remission,,,,,,,,,,,,
-IGHG4,2.4315878366839e-07,2.28433662777308,P-extra2,remission,,,,,,,,,,,,
-MZB1,6.26923080684596e-25,1.66113592409153,P-extra2,remission,,,,,,,,,,,,
-PRDX4,1.88934530734796e-22,1.45303508670542,P-extra2,remission,,,,,,,,,,,,
-JCHAIN,0.000105532082600649,1.44449746495628,P-extra2,remission,,,,,,,,,,,,
-FKBP11,7.14116819243246e-22,1.31075367575365,P-extra2,remission,,,,,,,,,,,,
-IGLV6-57,5.79319628575843e-15,1.22175330510695,P-extra2,remission,,,,,,,,,,,,
-MYDGF,2.38411932130048e-13,1.19928073191783,P-extra2,remission,,,,,,,,,,,,
-PLPP5,6.81065852750608e-16,1.19903992511744,P-extra2,remission,,,,,,,,,,,,
-HERPUD1,3.86390095499298e-19,1.1956430965105,P-extra2,remission,,,,,,,,,,,,
-SEC11C,1.8211761534761e-17,1.18833764054933,P-extra2,remission,,,,,,,,,,,,
-ITM2C,1.04401926462028e-19,1.12311141186577,P-extra2,remission,,,,,,,,,,,,
-HSP90B1,1.19728637916606e-13,1.10647522248818,P-extra2,remission,,,,,,,,,,,,
-DERL3,7.15616179410493e-20,1.09144084407183,P-extra2,remission,,,,,,,,,,,,
-TNFRSF17,1.54095125549486e-17,1.07865031593009,P-extra2,remission,,,,,,,,,,,,
-XBP1,1.05027139097351e-13,1.07468161039632,P-extra2,remission,,,,,,,,,,,,
-CD38,6.55183679222171e-12,1.06495137085274,P-extra2,remission,,,,,,,,,,,,
-SPCS3,9.69242685056474e-15,1.0041772617394,P-extra2,remission,,,,,,,,,,,,
-SSR4,7.58122749733175e-10,0.966990779113662,P-extra2,remission,,,,,,,,,,,,
-SSR3,2.21992970248966e-13,0.928493316020001,P-extra2,remission,,,,,,,,,,,,
-KDELR2,8.58704699475873e-07,0.891481433505521,P-extra2,remission,,,,,,,,,,,,
-SEC61G,1.40460559951553e-06,0.844229489137104,P-extra2,remission,,,,,,,,,,,,
-PPIB,1.08185897205895e-08,0.843240671826911,P-extra2,remission,,,,,,,,,,,,
-SUB1,4.76280679811358e-05,0.822465458560686,P-extra2,remission,,,,,,,,,,,,
-OSTC,2.20405073956548e-07,0.741965426945682,P-extra2,remission,,,,,,,,,,,,
-FKBP2,2.46762261275617e-07,0.741448544078901,P-extra2,remission,,,,,,,,,,,,
-CD27,8.14381963874341e-10,0.729261397748989,P-extra2,remission,,,,,,,,,,,,
-HDLBP,4.0814308712934e-10,0.708754235590724,P-extra2,remission,,,,,,,,,,,,
-SPCS1,3.77272747579013e-05,0.681089464060742,P-extra2,remission,,,,,,,,,,,,
-NPC2,1.35804642139368e-05,0.651131393972575,P-extra2,remission,,,,,,,,,,,,
-SELK,1.54403310465051e-08,0.642665643866421,P-extra2,remission,,,,,,,,,,,,
-SPCS2,1.09121929051847e-08,0.612815229280085,P-extra2,remission,,,,,,,,,,,,
-UBE2J1,1.30017183011697e-09,0.607317300395555,P-extra2,remission,,,,,,,,,,,,
-HM13,0.000220616695639554,0.599006707652928,P-extra2,remission,,,,,,,,,,,,
-MANF,8.11154466725946e-06,0.579362690365588,P-extra2,remission,,,,,,,,,,,,
-SERP1,9.74407646510711e-06,0.536222384381179,P-extra2,remission,,,,,,,,,,,,
-TMEM258,4.43776938040359e-05,0.508597954745831,P-extra2,remission,,,,,,,,,,,,
-SEC61B,0.000228327072369881,0.484566825007005,P-extra2,remission,,,,,,,,,,,,
-VIMP,5.87440919218323e-05,0.463077997701241,P-extra2,remission,,,,,,,,,,,,
-PSAP,0.000929941270430081,0.456640035189845,P-extra2,remission,,,,,,,,,,,,
-TMED9,0.000347749925463473,0.453845837405172,P-extra2,remission,,,,,,,,,,,,
-CD79A,3.46082882149593e-07,0.45285304613364,P-extra2,remission,,,,,,,,,,,,
-ROMO1,0.000402156192826192,0.444702496897825,P-extra2,remission,,,,,,,,,,,,
-SDF2L1,0.0033390453536568,0.44252645832818,P-extra2,remission,,,,,,,,,,,,
-HSPA5,5.38829625630747e-05,0.434054940380041,P-extra2,remission,,,,,,,,,,,,
-RNF181,0.00178743680386332,0.357248605696833,P-extra2,remission,,,,,,,,,,,,
-TMED10,0.0027400845879221,0.355617676378686,P-extra2,remission,,,,,,,,,,,,
-RPN2,0.00337532019314083,0.352145506968334,P-extra2,remission,,,,,,,,,,,,
-ZNF706,0.00170400880722411,0.343939754928465,P-extra2,remission,,,,,,,,,,,,
-KRTCAP2,0.00104826487244113,0.312033178394041,P-extra2,remission,,,,,,,,,,,,
-CTSS,0.00635416970330717,0.268495855003123,P-extra2,remission,,,,,,,,,,,,
+ATF4,4.25882187740117e-09,0.646534446177008,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+ATF4,4.25882187740117e-09,0.646534446177008,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+ISCU,0.000190959773749756,0.332599820256862,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+ISCU,0.000190959773749756,0.332599820256862,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+P4HB,4.98425683970521e-05,0.326001261974941,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+P4HB,4.98425683970521e-05,0.326001261974941,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+ATP5G1,0.00934570990114103,0.265770771792616,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+ATP5G1,0.00934570990114103,0.265770771792616,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGLL5,1.55339884058289e-08,2.694014671579,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGLL5,1.55339884058289e-08,2.694014671579,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGKC,2.52374915183702e-21,1.97784757070846,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGKC,2.52374915183702e-21,1.97784757070846,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGKV4-1,6.47536361223371e-06,1.9071834978088,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGKV4-1,6.47536361223371e-06,1.9071834978088,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+CRELD2,5.79330147742719e-16,0.884608737332851,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+CRELD2,5.79330147742719e-16,0.884608737332851,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+LMAN2,1.30124926961874e-07,0.755737696898247,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+LMAN2,1.30124926961874e-07,0.755737696898247,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SFT2D1,1.11793653046049e-09,0.748067978122956,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SFT2D1,1.11793653046049e-09,0.748067978122956,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+HAX1,1.53062707669375e-11,0.728081436974607,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+HAX1,1.53062707669375e-11,0.728081436974607,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+MESDC2,1.04830646036856e-13,0.712364991828446,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+MESDC2,1.04830646036856e-13,0.712364991828446,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SEC13,1.31855696608063e-08,0.697070332853284,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SEC13,1.31855696608063e-08,0.697070332853284,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+ALG5,4.43053637131512e-10,0.626922472082076,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+ALG5,4.43053637131512e-10,0.626922472082076,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+REEP5,1.48468267838346e-07,0.613980467175309,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+REEP5,1.48468267838346e-07,0.613980467175309,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+RPL22L1,2.12504371632402e-05,0.477606941142198,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+RPL22L1,2.12504371632402e-05,0.477606941142198,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+ATRAID,3.34758184760979e-05,0.473719538228595,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+ATRAID,3.34758184760979e-05,0.473719538228595,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+PDIA3,0.000141731290841251,0.43668801362074,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+PDIA3,0.000141731290841251,0.43668801362074,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IDH2,0.000732103694581792,0.416079355242605,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IDH2,0.000732103694581792,0.416079355242605,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+OST4,0.000131202755628217,0.414347667585745,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+OST4,0.000131202755628217,0.414347667585745,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+CYBA,0.00349312466425174,0.392089120810275,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+CYBA,0.00349312466425174,0.392089120810275,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+NUCB2,0.000119799430582782,0.391494598623058,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+NUCB2,0.000119799430582782,0.391494598623058,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SNU13,0.000129504242952898,0.380752998995368,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SNU13,0.000129504242952898,0.380752998995368,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+CUTA,7.01262676644696e-05,0.378735140887055,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+CUTA,7.01262676644696e-05,0.378735140887055,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+KRT10,0.000949327294171601,0.370348293761311,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+KRT10,0.000949327294171601,0.370348293761311,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+ANAPC11,4.66337817869304e-05,0.351742669300419,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+ANAPC11,4.66337817869304e-05,0.351742669300419,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+MIF,0.000809796837067859,0.350712518166126,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+MIF,0.000809796837067859,0.350712518166126,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+PEBP1,0.0079731918995518,0.350004167172527,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+PEBP1,0.0079731918995518,0.350004167172527,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+DAD1,0.0037282301511322,0.334780052783545,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+DAD1,0.0037282301511322,0.334780052783545,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SSR2,0.00599136770128531,0.29944397703094,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SSR2,0.00599136770128531,0.29944397703094,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+AC016739.2,0.00292429042681233,0.288108972044974,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+AC016739.2,0.00292429042681233,0.288108972044974,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGLV3-21,3.84866287156299e-05,2.81439082287612,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGLV3-21,3.84866287156299e-05,2.81439082287612,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGHA1,6.30592941759906e-23,2.40776294889347,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGHA1,6.30592941759906e-23,2.40776294889347,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGHG3,0.00343072686098862,1.79707506340817,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGHG3,0.00343072686098862,1.79707506340817,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+ERLEC1,2.97564968166004e-12,0.92157556696574,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+ERLEC1,2.97564968166004e-12,0.92157556696574,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+TXNDC15,3.28066707637671e-13,0.765130982813924,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+TXNDC15,3.28066707637671e-13,0.765130982813924,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SLAMF7,1.54266551150641e-09,0.754607981745463,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SLAMF7,1.54266551150641e-09,0.754607981745463,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+MTDH,3.87076284320197e-09,0.742702124553128,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+MTDH,3.87076284320197e-09,0.742702124553128,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+ARF4,8.43224732756116e-06,0.710394277171009,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+ARF4,8.43224732756116e-06,0.710394277171009,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+ISG20,4.3972928958761e-09,0.662147095622727,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+ISG20,4.3972928958761e-09,0.662147095622727,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+FOS,4.65641721524052e-05,0.501699665362384,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+FOS,4.65641721524052e-05,0.501699665362384,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+RABAC1,0.000480743332638739,0.483278213230202,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+RABAC1,0.000480743332638739,0.483278213230202,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+ERGIC3,1.58638812147662e-05,0.479140146925427,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+ERGIC3,1.58638812147662e-05,0.479140146925427,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+COPE,0.00798672925589834,0.446308498304668,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+COPE,0.00798672925589834,0.446308498304668,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+PDIA6,0.00429497132990931,0.442824612556369,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+PDIA6,0.00429497132990931,0.442824612556369,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+TRAM1,0.000400189374271117,0.437522287596223,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+TRAM1,0.000400189374271117,0.437522287596223,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+NDUFA1,0.00290799969382661,0.420324252841739,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+NDUFA1,0.00290799969382661,0.420324252841739,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+TMBIM6,0.00145883896288936,0.386300241334412,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+TMBIM6,0.00145883896288936,0.386300241334412,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+TMEM59,0.00210565324460844,0.381209117441466,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+TMEM59,0.00210565324460844,0.381209117441466,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+JTB,0.00276221486092841,0.360083630775515,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+JTB,0.00276221486092841,0.360083630775515,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+CDK2AP2,0.00441641174715751,0.342769880081125,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+CDK2AP2,0.00441641174715751,0.342769880081125,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SEC62,0.0021559625634868,0.31555434166339,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SEC62,0.0021559625634868,0.31555434166339,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+NDUFB4,0.00715159738468299,0.264515109458677,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+NDUFB4,0.00715159738468299,0.264515109458677,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGLV2-14,1.4389756651859e-08,3.53961577047802,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGLV2-14,1.4389756651859e-08,3.53961577047802,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGLC3,1.78499380253323e-18,2.87075350556125,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGLC3,1.78499380253323e-18,2.87075350556125,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGLV2-23,2.57560857975628e-22,2.73955523075753,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGLV2-23,2.57560857975628e-22,2.73955523075753,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGLC2,1.31762336655154e-25,2.64692558410404,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGLC2,1.31762336655154e-25,2.64692558410404,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGHG1,9.74757410539037e-26,2.46945376591871,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGHG1,9.74757410539037e-26,2.46945376591871,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGHG2,5.3564232788683e-05,2.43249104248731,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGHG2,5.3564232788683e-05,2.43249104248731,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGHG4,2.4315878366839e-07,2.28433662777308,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGHG4,2.4315878366839e-07,2.28433662777308,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+MZB1,6.26923080684596e-25,1.66113592409153,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+MZB1,6.26923080684596e-25,1.66113592409153,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+PRDX4,1.88934530734796e-22,1.45303508670542,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+PRDX4,1.88934530734796e-22,1.45303508670542,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+JCHAIN,0.000105532082600649,1.44449746495628,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+JCHAIN,0.000105532082600649,1.44449746495628,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+FKBP11,7.14116819243246e-22,1.31075367575365,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+FKBP11,7.14116819243246e-22,1.31075367575365,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+IGLV6-57,5.79319628575843e-15,1.22175330510695,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+IGLV6-57,5.79319628575843e-15,1.22175330510695,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+MYDGF,2.38411932130048e-13,1.19928073191783,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+MYDGF,2.38411932130048e-13,1.19928073191783,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+PLPP5,6.81065852750608e-16,1.19903992511744,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+PLPP5,6.81065852750608e-16,1.19903992511744,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+HERPUD1,3.86390095499298e-19,1.1956430965105,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+HERPUD1,3.86390095499298e-19,1.1956430965105,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SEC11C,1.8211761534761e-17,1.18833764054933,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SEC11C,1.8211761534761e-17,1.18833764054933,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+ITM2C,1.04401926462028e-19,1.12311141186577,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+ITM2C,1.04401926462028e-19,1.12311141186577,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+HSP90B1,1.19728637916606e-13,1.10647522248818,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+HSP90B1,1.19728637916606e-13,1.10647522248818,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+DERL3,7.15616179410493e-20,1.09144084407183,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+DERL3,7.15616179410493e-20,1.09144084407183,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+TNFRSF17,1.54095125549486e-17,1.07865031593009,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+TNFRSF17,1.54095125549486e-17,1.07865031593009,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+XBP1,1.05027139097351e-13,1.07468161039632,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+XBP1,1.05027139097351e-13,1.07468161039632,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+CD38,6.55183679222171e-12,1.06495137085274,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+CD38,6.55183679222171e-12,1.06495137085274,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SPCS3,9.69242685056474e-15,1.0041772617394,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SPCS3,9.69242685056474e-15,1.0041772617394,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SSR4,7.58122749733175e-10,0.966990779113662,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SSR4,7.58122749733175e-10,0.966990779113662,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SSR3,2.21992970248966e-13,0.928493316020001,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SSR3,2.21992970248966e-13,0.928493316020001,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+KDELR2,8.58704699475873e-07,0.891481433505521,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+KDELR2,8.58704699475873e-07,0.891481433505521,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SEC61G,1.40460559951553e-06,0.844229489137104,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SEC61G,1.40460559951553e-06,0.844229489137104,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+PPIB,1.08185897205895e-08,0.843240671826911,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+PPIB,1.08185897205895e-08,0.843240671826911,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SUB1,4.76280679811358e-05,0.822465458560686,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SUB1,4.76280679811358e-05,0.822465458560686,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+OSTC,2.20405073956548e-07,0.741965426945682,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+OSTC,2.20405073956548e-07,0.741965426945682,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+FKBP2,2.46762261275617e-07,0.741448544078901,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+FKBP2,2.46762261275617e-07,0.741448544078901,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+CD27,8.14381963874341e-10,0.729261397748989,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+CD27,8.14381963874341e-10,0.729261397748989,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+HDLBP,4.0814308712934e-10,0.708754235590724,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+HDLBP,4.0814308712934e-10,0.708754235590724,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SPCS1,3.77272747579013e-05,0.681089464060742,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SPCS1,3.77272747579013e-05,0.681089464060742,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+NPC2,1.35804642139368e-05,0.651131393972575,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+NPC2,1.35804642139368e-05,0.651131393972575,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SELK,1.54403310465051e-08,0.642665643866421,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SELK,1.54403310465051e-08,0.642665643866421,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SPCS2,1.09121929051847e-08,0.612815229280085,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SPCS2,1.09121929051847e-08,0.612815229280085,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+UBE2J1,1.30017183011697e-09,0.607317300395555,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+UBE2J1,1.30017183011697e-09,0.607317300395555,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+HM13,0.000220616695639554,0.599006707652928,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+HM13,0.000220616695639554,0.599006707652928,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+MANF,8.11154466725946e-06,0.579362690365588,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+MANF,8.11154466725946e-06,0.579362690365588,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SERP1,9.74407646510711e-06,0.536222384381179,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SERP1,9.74407646510711e-06,0.536222384381179,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+TMEM258,4.43776938040359e-05,0.508597954745831,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+TMEM258,4.43776938040359e-05,0.508597954745831,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SEC61B,0.000228327072369881,0.484566825007005,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SEC61B,0.000228327072369881,0.484566825007005,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+VIMP,5.87440919218323e-05,0.463077997701241,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+VIMP,5.87440919218323e-05,0.463077997701241,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+PSAP,0.000929941270430081,0.456640035189845,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+PSAP,0.000929941270430081,0.456640035189845,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+TMED9,0.000347749925463473,0.453845837405172,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+TMED9,0.000347749925463473,0.453845837405172,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+CD79A,3.46082882149593e-07,0.45285304613364,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+CD79A,3.46082882149593e-07,0.45285304613364,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+ROMO1,0.000402156192826192,0.444702496897825,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+ROMO1,0.000402156192826192,0.444702496897825,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+SDF2L1,0.0033390453536568,0.44252645832818,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+SDF2L1,0.0033390453536568,0.44252645832818,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+HSPA5,5.38829625630747e-05,0.434054940380041,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+HSPA5,5.38829625630747e-05,0.434054940380041,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+RNF181,0.00178743680386332,0.357248605696833,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+RNF181,0.00178743680386332,0.357248605696833,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+TMED10,0.0027400845879221,0.355617676378686,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+TMED10,0.0027400845879221,0.355617676378686,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+RPN2,0.00337532019314083,0.352145506968334,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+RPN2,0.00337532019314083,0.352145506968334,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+ZNF706,0.00170400880722411,0.343939754928465,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+ZNF706,0.00170400880722411,0.343939754928465,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+KRTCAP2,0.00104826487244113,0.312033178394041,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+KRTCAP2,0.00104826487244113,0.312033178394041,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
+CTSS,0.00635416970330717,0.268495855003123,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",,IDH2,0.0
+CTSS,0.00635416970330717,0.268495855003123,P-extra2,remission,66.0,F,4/14/20,M2,"IDH2, DNMT3A",DAC,,1182(Pre)/2243(Post),"clollected after  the 1st regimen, remission",, DNMT3A,1.0
