@@ -4,6 +4,7 @@ from numpy.lib.function_base import average
 import data_set as ds
 import numpy as np
 import patients as pt
+import pdata_process as pdp
 
     
 
@@ -99,56 +100,6 @@ def print_patients(patients):
         print(f' * Neu: {x.neu}')
 
 
-CATE = {
-    "tcell": "tcell",
-    "bcell": "bcell",
-    "monotypes": "monotypes",
-    "neu": "neu"
-}
-
-def compare_patients(patients):
-
-    merged_relapse = {}
-    merged_remission = {}
-    
-    for x in patients:
-        p = patients[x]
-
-        if p.outcome == "relapse":
-            merged = merged_relapse
-        elif p.outcome == "remission":
-            merged = merged_remission
-
-        for cell in p.tcell:
-            if cell in merged:
-                merged[cell].append(p.tcell[cell])
-                
-            else:
-                merged[cell] = [p.tcell[cell]]
-
-    avg_relapse = {}
-    avg_remission = {}
-    print("\n--Remission patients at Average:")
-    for m in merged_remission:
-        print(f'{m} - {merged_remission[m]}')
-        avg_remission[m] = average(merged_remission[m])
-        print(f'{m} - {avg_remission[m]}')
-
-    print("\n--Relapse patients at Average:")
-    for m in merged_relapse:
-        print(f'{m} - {merged_relapse[m]}')
-        avg_relapse[m] = average(merged_relapse[m])
-        print(f'{m} - {avg_relapse[m]}')
-
-    diff_rem = {}
-    print("\n\n -- The difference between Remission and Relapse")
-    for m in avg_remission:
-        if m in avg_relapse:
-            diff_rem[m] = avg_remission[m] - avg_relapse[m]
-            print(f'{m}: {diff_rem[m]}')
-    
-
-
 
 # main function for running the code
 def main():
@@ -157,7 +108,10 @@ def main():
     patients = init_patients(datasets)
     
     # print_patients(patients)
-    compare_patients(patients)
+    # tcell = pdp.compare_patients_tcell(patients)
+    # bcell = pdp.compare_patients_bcell(patients)
+    # mono = pdp.compare_patients_mono(patients)
+    neu = pdp.compare_patients_neu(patients)
 
         
 
