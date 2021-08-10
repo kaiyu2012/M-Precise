@@ -5,6 +5,8 @@ import data_set as ds
 import numpy as np
 import patients as pt
 
+DATA_FILTER = 0.2
+
 
 def compare_patients_tcell(patients):
 
@@ -48,7 +50,9 @@ def compare_patients_tcell(patients):
     print("\n\n -- The difference between Remission and Relapse - T Cell")
     for m in avg_remission:
         if m in avg_relapse:
-            diff_rem[m] = avg_remission[m] - avg_relapse[m]
+            diff_rem[m] = [avg_remission[m], 
+                            avg_relapse[m],
+                            avg_remission[m] - avg_relapse[m]]
             print(f'{m}: {diff_rem[m]}')
     
     tcell = {
@@ -103,7 +107,9 @@ def compare_patients_bcell(patients):
     print("\n\n -- The difference between Remission and Relapse - B Cell ")
     for m in avg_remission:
         if m in avg_relapse:
-            diff_rem[m] = avg_remission[m] - avg_relapse[m]
+            diff_rem[m] = [avg_remission[m], 
+                            avg_relapse[m],
+                            avg_remission[m] - avg_relapse[m]]
             print(f'{m}: {diff_rem[m]}')
     
     bcell = {
@@ -158,14 +164,26 @@ def compare_patients_neu(patients):
     print("\n\n -- The difference between Remission and Relapse - Neutrophils ")
     for m in avg_remission:
         if m in avg_relapse:
-            diff_rem[m] = avg_remission[m] - avg_relapse[m]
+            diff_rem[m] = [avg_remission[m], 
+                            avg_relapse[m],
+                            avg_remission[m] - avg_relapse[m]]
             print(f'{m}: {diff_rem[m]}')
+    
+    
+    print("\n\n -- The filtered difference - Neutrophils ")
+    filtered = {}
+    for d in diff_rem:
+        if  abs(diff_rem[d][2]) > DATA_FILTER:
+            filtered[d] = diff_rem[d][2]
+            print(f'{m}: {filtered[d]}')
     
     cdata = {
         "avg_remission": avg_remission,
         "avg_relapse": avg_relapse,
-        "diff": diff_rem
+        "diff": diff_rem,
+        "filtered": filtered
     }
+
 
     return cdata
 
@@ -211,7 +229,9 @@ def compare_patients_mono(patients):
     print("\n\n -- The difference between Remission and Relapse - monotypes ")
     for m in avg_remission:
         if m in avg_relapse:
-            diff_rem[m] = avg_remission[m] - avg_relapse[m]
+            diff_rem[m] = [avg_remission[m], 
+                            avg_relapse[m],
+                            avg_remission[m] - avg_relapse[m]]
             print(f'{m}: {diff_rem[m]}')
     
     cdata = {
