@@ -19,26 +19,29 @@ class DataSet:
     # Input: docment of the clinic of all patiences
     # Output: the genes data of mutation and cell type
     def read_clinic(self, doc) -> dict:
-        clinic = pd.read_excel(doc, index_col=None, usecols='A, F, H')  
+        clinic = pd.read_excel(doc, index_col=None, usecols='A, F, H, I')  
         
         # only use 40 patients data, drop others
-        self.patients_num = len(clinic) - 5      
+        self.patients_num = len(clinic) - 6      
 
         c_data = {
         "patient_id":[],
         "mutation": [],
+        "treatment":[],
         "outcome": []
         }
         
+        print(clinic.columns)
         for i in range(self.patients_num):
             c_data["patient_id"].append(clinic[clinic.columns[0]][i])
             c_data["mutation"].append(clinic[clinic.columns[1]][i])
-            c_data["outcome"].append(OUTCOME[clinic[clinic.columns[2]][i]])
+            c_data["treatment"].append(clinic[clinic.columns[2]][i])
+            c_data["outcome"].append(OUTCOME[clinic[clinic.columns[3]][i]])
 
         print("Clinic data is done....")
         self.clinic_data = c_data
         print(c_data)
-    
+        exit(0)
         return c_data
 
 

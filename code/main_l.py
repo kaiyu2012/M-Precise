@@ -88,8 +88,6 @@ def init_patients(datasets: ds.DataSet):
 def main():
     datasets = init_dataset()
 
-    # print_datasets(datasets)
-
     patients = init_patients(datasets)
     for p in patients:
         x = patients[p]
