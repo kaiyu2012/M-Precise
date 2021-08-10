@@ -108,10 +108,10 @@ def main():
     patients = init_patients(datasets)
     
     # print_patients(patients)
-    # tcell = pdp.compare_patients_tcell(patients)
+    tcell = pdp.compare_patients_tcell(patients)
     # bcell = pdp.compare_patients_bcell(patients)
     # mono = pdp.compare_patients_mono(patients)
-    neu = pdp.compare_patients_neu(patients)
+    # neu = pdp.compare_patients_neu(patients)
 
         
 

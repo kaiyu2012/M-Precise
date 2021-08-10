@@ -12,7 +12,6 @@ def compare_patients_tcell(patients):
 
     merged_relapse = {}
     merged_remission = {} 
-    tcell = {}   
     
     for x in patients:
         p = patients[x]
@@ -55,13 +54,17 @@ def compare_patients_tcell(patients):
                             avg_remission[m] - avg_relapse[m]]
             print(f'{m}: {diff_rem[m]}')
     
-    tcell = {
+    print("\n\n -- The filtered difference - T Cell ")
+    filtered = filtered = filter_diff(diff_rem)
+    
+    cdata = {
         "avg_remission": avg_remission,
         "avg_relapse": avg_relapse,
-        "diff": diff_rem
+        "diff": diff_rem,
+        "filtered": filtered
     }
 
-    return tcell
+    return cdata
 
 
 
@@ -112,13 +115,17 @@ def compare_patients_bcell(patients):
                             avg_remission[m] - avg_relapse[m]]
             print(f'{m}: {diff_rem[m]}')
     
-    bcell = {
+    print("\n\n -- The filtered difference - B Cell ")
+    filtered = filtered = filter_diff(diff_rem)
+    
+    cdata = {
         "avg_remission": avg_remission,
         "avg_relapse": avg_relapse,
-        "diff": diff_rem
+        "diff": diff_rem,
+        "filtered": filtered
     }
 
-    return bcell
+    return cdata
 
 
 
@@ -171,11 +178,8 @@ def compare_patients_neu(patients):
     
     
     print("\n\n -- The filtered difference - Neutrophils ")
-    filtered = {}
-    for d in diff_rem:
-        if  abs(diff_rem[d][2]) > DATA_FILTER:
-            filtered[d] = diff_rem[d][2]
-            print(f'{m}: {filtered[d]}')
+
+    filtered = filtered = filter_diff(diff_rem)
     
     cdata = {
         "avg_remission": avg_remission,
@@ -234,11 +238,26 @@ def compare_patients_mono(patients):
                             avg_remission[m] - avg_relapse[m]]
             print(f'{m}: {diff_rem[m]}')
     
+    print("\n\n -- The filtered difference - Monotypes ")
+    
+    filtered = filter_diff(diff_rem)
+    
+    
     cdata = {
         "avg_remission": avg_remission,
         "avg_relapse": avg_relapse,
-        "diff": diff_rem
+        "diff": diff_rem,
+        "filtered": filtered
     }
 
     return cdata
+
+
+def filter_diff(diff_rem):
+    filtered = {}
+    for d in diff_rem:
+        if  abs(diff_rem[d][2]) > DATA_FILTER:
+            filtered[d] = diff_rem[d][2]
+            print(f'{d}: {filtered[d]}')
+
 
