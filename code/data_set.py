@@ -41,7 +41,6 @@ class DataSet:
         print("Clinic data is done....")
         self.clinic_data = c_data
         print(c_data)
-        exit(0)
         return c_data
 
 

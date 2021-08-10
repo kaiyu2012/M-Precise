@@ -5,6 +5,7 @@ class Patient:
     def __init__(self):
         self.id = ""
         self.outcome = ""
+        self.treatment = ""
         self.mutation = ""
         self.tcell = {}
         self.bcell = {}
@@ -19,6 +20,9 @@ class Patient:
     
     def set_outcome(self, outcome):
         self.outcome = outcome
+
+    def set_treatment(self, treatment):
+        self.treatment = treatment
     
     def set_tcell(self, tcell):
         self.tcell = tcell

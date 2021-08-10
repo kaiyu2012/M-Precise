@@ -1,7 +1,10 @@
 
 
+from numpy.lib.function_base import average
 import data_set as ds
+import numpy as np
 import patients as pt
+
     
 
 # initlize the dataset with the file names
@@ -60,6 +63,7 @@ def init_patients(datasets: ds.DataSet):
         p.set_id(c["patient_id"][i])
         p.set_outcome(c["outcome"][i])
         p.set_mutation(c["mutation"][i])
+        p.set_treatment(c["treatment"][i])
 
         # set tcell
         if p.id in datasets.tcell_data["patient_id"]:
@@ -84,18 +88,76 @@ def init_patients(datasets: ds.DataSet):
     return patients
 
 
+def print_patients(patients):
+    for p in patients:
+        x = patients[p]
+        print(f'\n- Patient id: {x.id} \
+                \n -- Outcome: {x.outcome}  - Mutation: {x.mutation} - treatment: {x.treatment}')
+        print(f' * T cell: {x.tcell}')
+        print(f' * B cell: {x.bcell}')
+        print(f' * Monocytes: {x.monotypes}')
+        print(f' * Neu: {x.neu}')
+
+
+CATE = {
+    "tcell": "tcell",
+    "bcell": "bcell",
+    "monotypes": "monotypes",
+    "neu": "neu"
+}
+
+def compare_patients(patients):
+
+    merged_relapse = {}
+    merged_remission = {}
+    
+    for x in patients:
+        p = patients[x]
+
+        if p.outcome == "relapse":
+            merged = merged_relapse
+        elif p.outcome == "remission":
+            merged = merged_remission
+
+        for cell in p.tcell:
+            if cell in merged:
+                merged[cell].append(p.tcell[cell])
+                
+            else:
+                merged[cell] = [p.tcell[cell]]
+
+    avg_relapse = {}
+    avg_remission = {}
+    print("\n--Remission patients at Average:")
+    for m in merged_remission:
+        print(f'{m} - {merged_remission[m]}')
+        avg_remission[m] = average(merged_remission[m])
+        print(f'{m} - {avg_remission[m]}')
+
+    print("\n--Relapse patients at Average:")
+    for m in merged_relapse:
+        print(f'{m} - {merged_relapse[m]}')
+        avg_relapse[m] = average(merged_relapse[m])
+        print(f'{m} - {avg_relapse[m]}')
+
+    diff_rem = {}
+    print("\n\n -- The difference between Remission and Relapse")
+    for m in avg_remission:
+        if m in avg_relapse:
+            diff_rem[m] = avg_remission[m] - avg_relapse[m]
+            print(f'{m}: {diff_rem[m]}')
+    
+
+
+
 # main function for running the code
 def main():
     datasets = init_dataset()
 
     patients = init_patients(datasets)
-    for p in patients:
-        x = patients[p]
-        print(f'\nPatient id: {x.id} - Outcome: {x.outcome}  - Mutation: {x.mutation}')
-        print(f'T cell: {x.tcell}')
-        print(f'B cell: {x.bcell}')
-        print(f'Monocytes: {x.monotypes}')
-        print(f'Neu: {x.neu}')
+    
+    # print_patients(patients)
+    compare_patients(patients)
 
         
 
