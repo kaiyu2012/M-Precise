@@ -3,12 +3,16 @@ import numpy as np
 
 class Patient:
     def __init__(self):
+        self.id = ""
         self.outcome = ""
         self.mutation = ""
         self.tcell = {}
         self.bcell = {}
         self.monotypes = {}
+        self.neu = {}
     
+    def set_id(self, pid):
+        self.id = pid
 
     def set_mutation(self, mutation):
         self.mutation = mutation
@@ -24,3 +28,6 @@ class Patient:
     
     def set_monotypes(self, monotypes):
         self.monotypes = monotypes
+
+    def set_neu(self, neu):
+        self.neu = neu
