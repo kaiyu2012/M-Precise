@@ -4,9 +4,11 @@ from numpy.lib.function_base import average
 import numpy as np
 import pandas as pd
 import data_set as ds
+import graphs as gs
 
 import patients as pt
 import pdata_process as pdp
+
 
     
 
@@ -103,6 +105,7 @@ def print_patients(patients):
 
 
 
+
 # main function for running the code
 def main():
     datasets = init_dataset()
@@ -110,11 +113,17 @@ def main():
     patients = init_patients(datasets)
     
     # print_patients(patients)
-    tcell = pdp.compare_patients_tcell(patients)
-        
-    bcell = pdp.compare_patients_bcell(patients)
-    mono = pdp.compare_patients_mono(patients)
-    neu = pdp.compare_patients_neu(patients)
+    tcell = pdp.compare_patients_tcell(patients)    
+    # gs.plot_d(tcell["non_filter"], "tcell") 
+
+    bcell = pdp.compare_patients_bcell(patients)  
+    # gs.plot_d(bcell["non_filter"], "bcell") 
+
+    mono = pdp.compare_patients_mono(patients)  
+    # gs.plot_d(mono["non_filter"], "mono")   
+
+    neu = pdp.compare_patients_neu(patients) 
+    gs.plot_diff(neu["non_filter"], "neu")    
 
         
 

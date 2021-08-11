@@ -60,4 +60,7 @@ Exploring AI tools for cancer therapeutics/ Drug Discovery
     ```sh
     pip3 install openpyxl
     ```
+
+# Run the python code(examples)
+-python3 code/main_l.py >> test.txt
     

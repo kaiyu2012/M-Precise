@@ -51,13 +51,14 @@ def compare_patients_tcell(patients):
     diff_rem = computer_diff(avg_remission, avg_relapse)
     
     print("\n\n -- The filtered difference - T Cell ")
-    filtered = filter_diff(diff_rem)
+    filtered, non_filter = filter_diff(diff_rem)
     
     cdata = {
         "avg_remission": avg_remission,
         "avg_relapse": avg_relapse,
         "diff": diff_rem,
-        "filtered": filtered
+        "filtered": filtered,
+        "non_filter": non_filter
     }
     csv_file = open("tcell_filtered.csv", "w")
     csv_file.write(f"\nGenes,filtered difference")
@@ -111,13 +112,14 @@ def compare_patients_bcell(patients):
     diff_rem = computer_diff(avg_remission, avg_relapse)
     
     print("\n\n -- The filtered difference - B Cell ")
-    filtered = filtered = filter_diff(diff_rem)
+    filtered, non_filter = filter_diff(diff_rem)
     
     cdata = {
         "avg_remission": avg_remission,
         "avg_relapse": avg_relapse,
         "diff": diff_rem,
-        "filtered": filtered
+        "filtered": filtered,
+        "non_filter": non_filter
     }
 
     csv_file = open("bcell_filtered.csv", "w")
@@ -173,13 +175,14 @@ def compare_patients_neu(patients):
         
     print("\n\n -- The filtered difference - Neutrophils ")
 
-    filtered = filter_diff(diff_rem)
+    filtered, non_filter = filter_diff(diff_rem)
     
     cdata = {
         "avg_remission": avg_remission,
         "avg_relapse": avg_relapse,
         "diff": diff_rem,
-        "filtered": filtered
+        "filtered": filtered,
+        "non_filter": non_filter
     }
 
     csv_file = open("Neu_filtered.csv", "w")
@@ -235,13 +238,14 @@ def compare_patients_mono(patients):
     
     print("\n\n -- The filtered difference - Monotypes ")
     
-    filtered = filter_diff(diff_rem)
+    filtered, non_filter = filter_diff(diff_rem)
         
     cdata = {
         "avg_remission": avg_remission,
         "avg_relapse": avg_relapse,
         "diff": diff_rem,
-        "filtered": filtered
+        "filtered": filtered,
+        "non_filter": non_filter
     }
 
     csv_file = open("mono_filtered.csv", "w")
@@ -255,7 +259,9 @@ def compare_patients_mono(patients):
 
 def filter_diff(diff_rem):
     filtered = {}
+    non_filter = {}
     for d in diff_rem:
+        non_filter[d] = diff_rem[d][2]
         if  abs(diff_rem[d][2]) > DATA_FILTER:
             filtered[d] = diff_rem[d][2]
             print(f'{d}: {filtered[d]}')
@@ -264,6 +270,7 @@ def filter_diff(diff_rem):
     # filt = {k: v for k, v in sorted(filtered.items(), key=lambda item: item[1])}
     
     filt = sorted(filtered.items(), key=lambda x:x[1])
+    nf = sorted(non_filter.items(), key=lambda x:x[1])
 
     r_data = {}
     for d in filt:
@@ -271,8 +278,12 @@ def filter_diff(diff_rem):
         r_data[d[0]] = d[1]
 
     print(r_data)
+
+    n_data = {}
+    for d in nf:
+        n_data[d[0]] = d[1]
     
-    return r_data
+    return r_data, n_data
 
     
 
