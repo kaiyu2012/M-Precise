@@ -1,6 +1,7 @@
 
 
 from numpy.lib.function_base import average
+import pandas as pd
 import data_set as ds
 import numpy as np
 import patients as pt
@@ -45,17 +46,12 @@ def compare_patients_tcell(patients):
         avg_relapse[m] = average(merged_relapse[m])
         print(f'{m} - {avg_relapse[m]}')
 
-    diff_rem = {}
+   
     print("\n\n -- The difference between Remission and Relapse - T Cell")
-    for m in avg_remission:
-        if m in avg_relapse:
-            diff_rem[m] = [avg_remission[m], 
-                            avg_relapse[m],
-                            avg_remission[m] - avg_relapse[m]]
-            print(f'{m}: {diff_rem[m]}')
+    diff_rem = computer_diff(avg_remission, avg_relapse)
     
     print("\n\n -- The filtered difference - T Cell ")
-    filtered = filtered = filter_diff(diff_rem)
+    filtered = filter_diff(diff_rem)
     
     cdata = {
         "avg_remission": avg_remission,
@@ -63,6 +59,11 @@ def compare_patients_tcell(patients):
         "diff": diff_rem,
         "filtered": filtered
     }
+    csv_file = open("tcell_filtered.csv", "w")
+    csv_file.write(f"\nGenes,filtered difference")
+    for x in filtered:
+        csv_file.write(f"\n{x},{filtered[x]}")
+    csv_file.close()
 
     return cdata
 
@@ -106,14 +107,8 @@ def compare_patients_bcell(patients):
         avg_relapse[m] = average(merged_relapse[m])
         print(f'{m} - {avg_relapse[m]}')
 
-    diff_rem = {}
     print("\n\n -- The difference between Remission and Relapse - B Cell ")
-    for m in avg_remission:
-        if m in avg_relapse:
-            diff_rem[m] = [avg_remission[m], 
-                            avg_relapse[m],
-                            avg_remission[m] - avg_relapse[m]]
-            print(f'{m}: {diff_rem[m]}')
+    diff_rem = computer_diff(avg_remission, avg_relapse)
     
     print("\n\n -- The filtered difference - B Cell ")
     filtered = filtered = filter_diff(diff_rem)
@@ -124,6 +119,12 @@ def compare_patients_bcell(patients):
         "diff": diff_rem,
         "filtered": filtered
     }
+
+    csv_file = open("bcell_filtered.csv", "w")
+    csv_file.write(f"\nGenes,Filtered Difference")
+    for x in filtered:
+        csv_file.write(f"\n{x},{filtered[x]}")
+    csv_file.close()
 
     return cdata
 
@@ -166,20 +167,13 @@ def compare_patients_neu(patients):
         # print(f'{m} - {merged_relapse[m]}')
         avg_relapse[m] = average(merged_relapse[m])
         print(f'{m} - {avg_relapse[m]}')
-
-    diff_rem = {}
+    
     print("\n\n -- The difference between Remission and Relapse - Neutrophils ")
-    for m in avg_remission:
-        if m in avg_relapse:
-            diff_rem[m] = [avg_remission[m], 
-                            avg_relapse[m],
-                            avg_remission[m] - avg_relapse[m]]
-            print(f'{m}: {diff_rem[m]}')
-    
-    
+    diff_rem = computer_diff(avg_remission, avg_relapse)
+        
     print("\n\n -- The filtered difference - Neutrophils ")
 
-    filtered = filtered = filter_diff(diff_rem)
+    filtered = filter_diff(diff_rem)
     
     cdata = {
         "avg_remission": avg_remission,
@@ -187,6 +181,12 @@ def compare_patients_neu(patients):
         "diff": diff_rem,
         "filtered": filtered
     }
+
+    csv_file = open("Neu_filtered.csv", "w")
+    csv_file.write(f"\nGenes,Filtered Difference")
+    for x in filtered:
+        csv_file.write(f"\n{x},{filtered[x]}")
+    csv_file.close()
 
 
     return cdata
@@ -229,26 +229,26 @@ def compare_patients_mono(patients):
         avg_relapse[m] = average(merged_relapse[m])
         print(f'{m} - {avg_relapse[m]}')
 
-    diff_rem = {}
+    
     print("\n\n -- The difference between Remission and Relapse - monotypes ")
-    for m in avg_remission:
-        if m in avg_relapse:
-            diff_rem[m] = [avg_remission[m], 
-                            avg_relapse[m],
-                            avg_remission[m] - avg_relapse[m]]
-            print(f'{m}: {diff_rem[m]}')
+    diff_rem = computer_diff(avg_remission, avg_relapse)
     
     print("\n\n -- The filtered difference - Monotypes ")
     
     filtered = filter_diff(diff_rem)
-    
-    
+        
     cdata = {
         "avg_remission": avg_remission,
         "avg_relapse": avg_relapse,
         "diff": diff_rem,
         "filtered": filtered
     }
+
+    csv_file = open("mono_filtered.csv", "w")
+    csv_file.write(f"\nGenes,Filtered Difference")
+    for x in filtered:
+        csv_file.write(f"\n{x},{filtered[x]}")
+    csv_file.close()
 
     return cdata
 
@@ -259,5 +259,31 @@ def filter_diff(diff_rem):
         if  abs(diff_rem[d][2]) > DATA_FILTER:
             filtered[d] = diff_rem[d][2]
             print(f'{d}: {filtered[d]}')
+    
+    print("\nSorted.............")
+    # filt = {k: v for k, v in sorted(filtered.items(), key=lambda item: item[1])}
+    
+    filt = sorted(filtered.items(), key=lambda x:x[1])
+
+    r_data = {}
+    for d in filt:
+        print(f'{d[0]}: {d[1]}')
+        r_data[d[0]] = d[1]
+
+    print(r_data)
+    
+    return r_data
+
+    
+
+def computer_diff(avg_remission, avg_relapse):
+    diff_rem = {}
+    for m in avg_remission:
+        if m in avg_relapse:
+            diff_rem[m] = [avg_remission[m], 
+                            avg_relapse[m],
+                            avg_remission[m] - avg_relapse[m]]
+            print(f'{m}: {diff_rem[m]}')
+    return diff_rem
 
 

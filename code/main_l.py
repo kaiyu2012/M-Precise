@@ -1,8 +1,10 @@
 
 
 from numpy.lib.function_base import average
-import data_set as ds
 import numpy as np
+import pandas as pd
+import data_set as ds
+
 import patients as pt
 import pdata_process as pdp
 
@@ -109,9 +111,10 @@ def main():
     
     # print_patients(patients)
     tcell = pdp.compare_patients_tcell(patients)
-    # bcell = pdp.compare_patients_bcell(patients)
-    # mono = pdp.compare_patients_mono(patients)
-    # neu = pdp.compare_patients_neu(patients)
+        
+    bcell = pdp.compare_patients_bcell(patients)
+    mono = pdp.compare_patients_mono(patients)
+    neu = pdp.compare_patients_neu(patients)
 
         
 
