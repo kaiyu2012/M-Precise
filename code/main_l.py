@@ -114,13 +114,13 @@ def main():
     
     # print_patients(patients)
     tcell = pdp.compare_patients_tcell(patients)    
-    # gs.plot_d(tcell["non_filter"], "tcell") 
+    gs.plot_d(tcell["non_filter"], "tcell") 
 
     bcell = pdp.compare_patients_bcell(patients)  
-    # gs.plot_d(bcell["non_filter"], "bcell") 
+    gs.plot_d(bcell["non_filter"], "bcell") 
 
     mono = pdp.compare_patients_mono(patients)  
-    # gs.plot_d(mono["non_filter"], "mono")   
+    gs.plot_d(mono["non_filter"], "mono")   
 
     neu = pdp.compare_patients_neu(patients) 
     gs.plot_diff(neu["non_filter"], "neu")    

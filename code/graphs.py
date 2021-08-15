@@ -61,9 +61,9 @@ def plot_d(diff_data, cate):
     tick_label = []
 
     # naming the x-axis
-    plt.xlabel('x - axis')
+    plt.xlabel('Genes - axis')
     # naming the y-axis
-    plt.ylabel('y - axis')
+    plt.ylabel('Difference - axis')
     # plot title
     plt.title(PNGS[cate][1])
 
@@ -72,9 +72,17 @@ def plot_d(diff_data, cate):
         tick_label.append(x)
         height.append(diff_data[x])
 
-    fig = plt.figure()
-    fig.subplots_adjust(bottom=0.2)
-    ax = fig.add_subplot(111)
+    # fig = plt.figure()
+    # fig.subplots_adjust(bottom=0.2)
+    # ax = fig.add_subplot(111)
+
+    fig, ax1 = plt.subplots(figsize=(6, 5))        
+    
+
+    plt.axis('on')
+    ax1.set_title(PNGS[cate][1])
+    ax1.set_ylabel('Difference - axis')
+    ax1.set_xlabel('Genes - axis')
 
 
     plt.scatter(left,height,alpha=0.7,cmap=cm.Paired, s=1)
